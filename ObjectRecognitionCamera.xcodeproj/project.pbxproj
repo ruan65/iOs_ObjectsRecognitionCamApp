@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		000661A51F9270E80067DF15 /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 000661A41F92700B0067DF15 /* SqueezeNet.mlmodel */; };
+		000661A71F92ADB40067DF15 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 000661A61F92ADA80067DF15 /* Resnet50.mlmodel */; };
 		001EC1751F91555E0090D973 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001EC1741F91555E0090D973 /* AppDelegate.swift */; };
 		001EC1771F91555E0090D973 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001EC1761F91555E0090D973 /* ViewController.swift */; };
 		001EC17A1F91555E0090D973 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 001EC1781F91555E0090D973 /* Main.storyboard */; };
@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		000661A41F92700B0067DF15 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
+		000661A61F92ADA80067DF15 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 		001EC1711F91555E0090D973 /* ObjectRecognitionCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectRecognitionCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		001EC1741F91555E0090D973 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		001EC1761F91555E0090D973 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 		001EC1731F91555E0090D973 /* ObjectRecognitionCamera */ = {
 			isa = PBXGroup;
 			children = (
-				000661A41F92700B0067DF15 /* SqueezeNet.mlmodel */,
+				000661A61F92ADA80067DF15 /* Resnet50.mlmodel */,
 				001EC1741F91555E0090D973 /* AppDelegate.swift */,
 				001EC1761F91555E0090D973 /* ViewController.swift */,
 				001EC1781F91555E0090D973 /* Main.storyboard */,
@@ -140,7 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				001EC1771F91555E0090D973 /* ViewController.swift in Sources */,
-				000661A51F9270E80067DF15 /* SqueezeNet.mlmodel in Sources */,
+				000661A71F92ADB40067DF15 /* Resnet50.mlmodel in Sources */,
 				001EC1751F91555E0090D973 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
